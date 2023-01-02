@@ -20,7 +20,7 @@
 
 
         var url = document.location.href.split("url=")[1];
-        $(function(){
+        jQuery(function(){
 
             jQuery.get( url, function( data ) {
                 jQuery("#pastebin_data").val(data);
